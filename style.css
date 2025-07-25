@@ -1,4 +1,58 @@
 /*Custom CSS to Overide or Complement Bootstrap */
 body{
-    
+    font-family: 'Arial', san-serif;
+    line-height: 1.6;
+}
+/*Header adjustments*/
+header {
+    box-shadow: 02px 5px rgba(0,0,0,0.1);
+}
+/*Navigation link hover effect */
+.nav-link:hover {
+    color: #0d6efd !important
+}
+/*Section Padding/
+section {
+    min-height: 400px;
+}
+
+/*Video Slider Styling */
+.carousel video {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/*Image Styling for about and projects */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border: 3px solid #0d6efd;
+}
+
+/* Card hover effect for Projects */
+.card {
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Social Media Icons Hover Effect */
+.social-icons a:hover {
+    color: #0d6efd !important
+}
+
+/*Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel video {
+        max-height: 300px;
+    }
+
+    .rounded-circle {
+        max-width: 200px;
+    }
 }
